@@ -10,7 +10,7 @@ function App() {
   const [locationLoading, setLocationLoading] = useState(false)
 
   // REPLACE WITH YOUR ACTUAL API KEY
-  const API_KEY = 'YOUR_API_KEY_HERE'
+  const API_KEY = '08fa8cf28f4363dd05349cac04c691c0'
 
   const fetchWeather = async (searchCity) => {
     if (!searchCity) return
